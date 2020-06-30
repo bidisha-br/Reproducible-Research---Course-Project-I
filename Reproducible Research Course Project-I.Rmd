@@ -21,7 +21,7 @@ output: html_document
 ##Assignment 1
 ##Code for reading in the dataset and/or processing the data
 ```{r, echo = TRUE}
-setwd("E:/R/datasciencecoursera/repdata_data_activity")
+setwd("./repdata_data_activity")
 activity<-read.csv("activity.csv")
 ```
 
